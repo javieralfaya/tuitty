@@ -1,0 +1,23 @@
+tuitty_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: TuittyBundle:Default:test }
+    
+index:
+    pattern: /
+    defaults: { _controller: TuittyBundle:Index:index }
+    
+account:
+    pattern: /account/new_user
+    defaults: { _controller: TuittyBundle:Account:new_user }
+
+accountValidator:
+    pattern: /account/validate
+    defaults: { _controller: TuittyBundle:AccountValidator:validate }
+    
+login:
+    pattern: /login
+    defaults: { _controller: TuittyBundle:Login:login }
+    
+loginValidator:
+    pattern: /login/validate
+    defaults: { _controller: TuittyBundle:LoginValidator:validate }

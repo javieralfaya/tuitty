@@ -1,0 +1,17 @@
+<form action="" method="post">
+    Estoy en el login.
+    <input type="button" value="Validar" id="btn_validate" onclick="enviar(this.id);" />
+    <input type="button" value="Registro" id="btn_nuevoUsuario" onclick="enviar(this.id);" />
+</form>
+
+
+<script>
+    function enviar(id){
+        if(id == "btn_validate"){
+            document.forms[0].action = "./login/validate";
+        }else{
+            document.forms[0].action = "../account/new_user";
+        }
+        document.forms[0].submit();
+    }
+</script>

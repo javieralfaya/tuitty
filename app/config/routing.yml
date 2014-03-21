@@ -1,0 +1,4 @@
+tuitty:
+    resource: "@TuittyBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,7 @@
+parameters:
+#    tuitty.example.class: tuitty\TuittyBundle\Example
+
+services:
+#    tuitty.example:
+#        class: %tuitty.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
