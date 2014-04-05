@@ -21,3 +21,5 @@ login:
 loginValidator:
     pattern: /login/validate
     defaults: { _controller: TuittyBundle:LoginValidator:validate }
+    
+    manolito
